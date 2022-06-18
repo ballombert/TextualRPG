@@ -4,7 +4,8 @@ namespace TextualRpg.Lib
     {
         public Place GenratePlace()
         {
-            return new Place("This is a place");
+            return new Place() { Id=Guid.NewGuid(), 
+                                 Name= "This is a place"};
         } 
     }
 }

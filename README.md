@@ -18,3 +18,18 @@ sequenceDiagram
         Srv->>P1: place description
     end 
 ```
+
+
+## How to participate
+
+install commitizen
+
+```shell
+npm install -g commitizen
+```
+
+use commitizen
+
+```shell
+cz
+```
